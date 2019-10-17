@@ -11,5 +11,5 @@ export class GroupComponentComponent implements OnInit {
 
   ngOnInit() {
   }
-
+group=['KFC','Dominos','Dmart','Groceries','Beer','Coffee']
 }

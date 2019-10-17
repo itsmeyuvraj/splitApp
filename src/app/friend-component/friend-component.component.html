@@ -1,0 +1,42 @@
+
+
+<mat-grid-list cols="2" gutterSize="20px" rowHeight="4:3">
+
+        <mat-grid-tile >
+
+        <ul>
+            <li *ngFor="let m of names">
+
+                    {{m}}
+           </li>
+        </ul>
+
+       </mat-grid-tile>
+
+
+        <mat-grid-tile>
+        <ul>
+            
+            <li *ngFor="let n of amount"> 
+                    {{n}} 
+            </li>
+
+        </ul>
+
+        </mat-grid-tile>
+
+</mat-grid-list>
+
+<div class="dialog" >
+
+        <button aling-self="center" mat-flat-button color="primary" (click)="openDialog()">Add more friends +</button>
+</div>
+<!-- 
+<mat-fab routerLink="/addFriend">
+
+Add more friends
+
+</mat-fab>
+       -->
+
+     

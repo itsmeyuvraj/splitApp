@@ -9,3 +9,8 @@ export class AppComponent {
   title = 'splitApp';
   names= ['yuvraj','sohan']
 }
+export class TabGroupBasicExample {}
+
+export class SidenavOverviewExample {
+  shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
+}

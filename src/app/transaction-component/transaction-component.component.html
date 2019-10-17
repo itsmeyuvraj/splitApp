@@ -1,1 +1,42 @@
-<p>transaction-component works!</p>
+<div class="card" *ngFor="let m of range" >
+
+
+
+   <!--  <mat-card>
+
+   <mat-card-title> Title </mat-card-title>
+   <mat-card-content>This is a card and it shows some informations </mat-card-content> 
+
+
+
+
+    </mat-card>
+
+
+ -->
+ <mat-card class="card">
+    <!--Card image-->
+    <!-- <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap"></mdb-card-img> -->
+    <!--Card content-->
+    <mat-card-content>
+  
+     <div> <!--Title-->
+      <mat-card-title>
+        <h4>Card Title</h4>
+      </mat-card-title>
+  
+      <img mat-card-image id="image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <!--Text-->
+      </div>
+      <mat-card-content> Some quick example text to build on the card title and make up the bulk of the card's
+        content.
+      </mat-card-content>
+  
+      <a href="#"  color="primary" >more</a>
+    </mat-card-content>
+  </mat-card>
+
+
+</div>
+
+

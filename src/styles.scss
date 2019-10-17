@@ -1,4 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-// @import "https://bootswatch.com/cerulean/bootstrap.min.css"
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-@import "./bootstrap.min.css"
+body{
+    font-size: 20px;
+}
+

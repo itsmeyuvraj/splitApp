@@ -12,4 +12,8 @@ export class TransactionComponentComponent implements OnInit {
   ngOnInit() {
   }
 
+  range=[1,2,3,4,5]
+
 }
+
+export class TabLayout{}
