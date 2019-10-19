@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TransactionComponentComponent } from './transaction-component/transaction-component.component';
@@ -12,6 +13,7 @@ import { AddGroupComponentComponent } from './add-group-component/add-group-comp
 import { AddFriendsComponentComponent } from './add-friends-component/add-friends-component.component';
 import { FriendComponentComponent } from './friend-component/friend-component.component';
 import { MaterialModule} from './material';
+
 
 
 @NgModule({
@@ -24,9 +26,12 @@ import { MaterialModule} from './material';
     AddExpenseComponentComponent,
     AddGroupComponentComponent,
     AddFriendsComponentComponent,
-    FriendComponentComponent
+    FriendComponentComponent,
+
+    
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     MaterialModule,

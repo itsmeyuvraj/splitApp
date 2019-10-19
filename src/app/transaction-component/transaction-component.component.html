@@ -1,42 +1,48 @@
-<div class="card" *ngFor="let m of range" >
-
-
-
-   <!--  <mat-card>
-
-   <mat-card-title> Title </mat-card-title>
-   <mat-card-content>This is a card and it shows some informations </mat-card-content> 
-
-
-
-
-    </mat-card>
-
-
- -->
- <mat-card class="card">
-    <!--Card image-->
-    <!-- <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap"></mdb-card-img> -->
-    <!--Card content-->
-    <mat-card-content>
+<!-- 
+<div class="card">
   
-     <div> <!--Title-->
-      <mat-card-title>
-        <h4>Card Title</h4>
-      </mat-card-title>
-  
-      <img mat-card-image id="image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-      <!--Text-->
-      </div>
-      <mat-card-content> Some quick example text to build on the card title and make up the bulk of the card's
-        content.
-      </mat-card-content>
-  
-      <a href="#"  color="primary" >more</a>
-    </mat-card-content>
+  <ul style="list-style-type: none" *ngFor="let m of range">
+
+
+    <li>
+
+<mat-card>
+
+  <mat-card-title>{{cards.name}}</mat-card-title>
+  <mat-card-content>{{cards.desc}}</mat-card-content>
+ 
+</mat-card> 
+ 
+{{card.name}}
+</li>
+</ul>
+</div> -->
+<div class="card">
+
+  <ul style="list-style-type: none;" *ngFor="let m of range">
+
+ <li>
+
+
+  <mat-card>
+
+
+  <mat-card-title>Title</mat-card-title>
+  <mat-card-content>
+    Description of the transaction
+  </mat-card-content>
+
+
+
   </mat-card>
 
 
+
+
+
+
+ </li>
+
+</ul>
+
 </div>
-
-

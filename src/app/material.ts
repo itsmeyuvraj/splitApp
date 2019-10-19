@@ -12,7 +12,7 @@ MatCardModule,
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-import { FormsModule } from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'; 
 import {MatDialogModule} from '@angular/material/dialog';
 
