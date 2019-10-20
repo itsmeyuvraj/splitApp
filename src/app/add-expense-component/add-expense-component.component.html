@@ -1,1 +1,40 @@
-<p>add-expense-component works!</p>
+
+
+<a routerLink="/addfriend"> add friend </a>
+
+<form method="POST">
+
+        <mat-form-field class="example-full-width">
+                <label>Description</label><textarea matInput required></textarea>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+                <Label> Amount </Label><input matInput required="true">
+       </mat-form-field>
+
+       <mat-form-field>
+            <mat-label>Between</mat-label>
+            <select matNativeControl required>
+              <option value="yuvraj">Yuvraj Sharma</option>
+              <option value="subhajit">Subhajit Saha</option>
+              <option value="sohan">Sohan Basak</option>
+              <option value="meenank">Meenank Meenu</option>
+            </select>
+          </mat-form-field>
+
+          <mat-form-field>
+                <mat-label>Split</mat-label>
+                <select matNativeControl required>
+                  <option value="equally">Equally</option>
+                  <option value="unequally">Unequally</option>
+                  <option value="shares">Shares</option>
+                  <option value="percentage">Percentage</option>
+                </select>
+              </mat-form-field>
+
+              <button mat-button color="primary">Confirm</button>
+              <button mat-button color="primary">Cancel</button>
+
+
+
+</form>

@@ -27,6 +27,7 @@ import { MaterialModule} from './material';
     AddGroupComponentComponent,
     AddFriendsComponentComponent,
     FriendComponentComponent,
+    AddGroupComponentComponent
 
     
   ],
@@ -41,7 +42,10 @@ import { MaterialModule} from './material';
     {path: 'transactions' ,component: TransactionComponentComponent},
     {path: 'friends' ,component: FriendComponentComponent},
     {path: 'groups' ,component: GroupComponentComponent},
-    {path: 'addfriend', component: AddFriendsComponentComponent}
+    {path: 'addfriend', component: AddFriendsComponentComponent},
+    {path: 'addgroup', component: AddGroupComponentComponent},
+    {path: 'addexpense', component: AddExpenseComponentComponent}
+
 
 
       ]

@@ -1,3 +1,4 @@
+import { AddExpenseComponentComponent } from './../add-expense-component/add-expense-component.component';
 import { AddFriendsComponentComponent } from './../add-friends-component/add-friends-component.component';
 import { Component, OnInit, Inject } from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
@@ -18,6 +19,14 @@ amount=[123,456,678,908]
 
 openDialog(): void {
   const dialogRef = this.dialog.open(AddFriendsComponentComponent, {
+    width: '250px',
+    
+  });
+
+  
+}
+openExpense(): void {
+  const dialogRef = this.dialog.open(AddExpenseComponentComponent, {
     width: '250px',
     
   });
