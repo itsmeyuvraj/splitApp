@@ -19,7 +19,7 @@
 </div> -->
 <div class="card">
 
-  <ul style="list-style-type: none;" *ngFor="let m of range">
+  <ul style="list-style-type: none;" *ngFor="let m of cards">
 
  <li>
 
@@ -27,10 +27,17 @@
   <mat-card>
 
 
-  <mat-card-title>Title</mat-card-title>
+ <!--  <mat-card-title>{{card.name}}</mat-card-title>
   <mat-card-content>
-    Description of the transaction
+   {{card.desc}}
+  </mat-card-content> -->
+
+  <mat-card-title>hsvchcvs</mat-card-title>
+  <mat-card-content>
+    {{cards.name}}
   </mat-card-content>
+
+
 
 
 

@@ -1,7 +1,12 @@
 import { AddExpenseComponentComponent } from './../add-expense-component/add-expense-component.component';
-import { AddFriendsComponentComponent } from './../add-friends-component/add-friends-component.component';
+import { AddFriendsComponentComponent,friends} from './../add-friends-component/add-friends-component.component';
 import { Component, OnInit, Inject } from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+
+
+
+
+
 
 @Component({
   selector: 'app-friend-component',
@@ -14,8 +19,10 @@ export class FriendComponentComponent implements OnInit {
 
   ngOnInit() {
   }
-names=['Yuvraj Sharma','Sohan Basak','Subhajit saha','Meenank Meenu']
+// names=['Yuvraj Sharma','Sohan Basak','Subhajit saha','Meenank Meenu']
+names=friends;
 amount=[123,456,678,908]
+
 
 openDialog(): void {
   const dialogRef = this.dialog.open(AddFriendsComponentComponent, {

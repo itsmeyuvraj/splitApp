@@ -1,5 +1,6 @@
-import { card } from 'src/app/card';
+import { card } from 'src/app/transaction-component/card';
 import { Component, OnInit } from '@angular/core';
+
 
 
 @Component({
@@ -9,10 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TransactionComponentComponent  {
 
-  cards=card;
-  
-
-  range=[1,2,3,4,5];
+   cards =card; 
 
  
 

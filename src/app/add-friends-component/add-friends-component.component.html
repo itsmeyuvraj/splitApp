@@ -1,9 +1,22 @@
 
 <form class="add-friend">
     <mat-form-field class="form">
-      Name<input mat-input placeholder="Name">
+      Name<input mat-input matInput placeholder="Name"  [(ngModel)]="task" [ngModelOptions]="{standalone: true}">
     </mat-form-field>
-    <button mat-flat-button accent="primary">Save </button>
+    <!-- <button mat-flat-button accent="primary">Save </button> -->
+    <button mat-flat-button (click)="onClick()">Save</button>
+
+   <!--  <span>
+      {{friends | json}}
+  </span> -->
+
+  <ul class="list-group">
+    <li *ngFor="let task of friends" class="list-group-item">
+        <span> {{ friends.name }} </span>
+    </li>
+</ul>
+
+    
 
 </form>
 
