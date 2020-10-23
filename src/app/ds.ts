@@ -1,16 +1,23 @@
-export const friends= [
+/* export const friends= [
+   {    name: 'Yuvraj'
+    },
+     
+    {
+      name: 'Subhajit'
+     
+    },
+    {
+      name: 'Sohan'
+      
+    },
+    {
+        name: 'Meenank'
+        
+      }
+  ];  */
 
-{
-    name : 'Hello '
-},
-
-{
-    name : 'world'
-}
 
 
 
 
-]
-
-export const amount=[123,456,678,908]
+//export const amount=[123,456,678,908]

@@ -13,7 +13,7 @@ import { AddGroupComponentComponent } from './add-group-component/add-group-comp
 import { AddFriendsComponentComponent } from './add-friends-component/add-friends-component.component';
 import { FriendComponentComponent } from './friend-component/friend-component.component';
 import { MaterialModule} from './material';
-import {friends,amount} from 'src/app/ds'
+//import {friend,amount} from 'src/app/ds'
 
 
 
@@ -29,9 +29,9 @@ import {friends,amount} from 'src/app/ds'
     AddFriendsComponentComponent,
     FriendComponentComponent,
     AddGroupComponentComponent,
-    friends,
-    amount
-
+  
+    //amount
+ 
     
   ],
   imports: [

@@ -2,12 +2,16 @@
 
 <mat-grid-list cols="2" gutterSize="20px" rowHeight="4:3">
 
+        <br>
+        <br>
+
+
         <mat-grid-tile >
 
         <ul>
-            <li *ngFor="let m of names">
+            <li *ngFor="let m of friend">
 
-                    {{m}}
+                    {{m.name}}
            </li>
         </ul>
 
@@ -18,7 +22,7 @@
         <ul>
             
             <li *ngFor="let n of amount"> 
-                    {{n}} 
+                    {{n.number}} 
             </li>
 
         </ul>

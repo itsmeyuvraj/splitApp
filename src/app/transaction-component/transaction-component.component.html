@@ -19,37 +19,42 @@
 </div> -->
 <div class="card">
 
-  <ul style="list-style-type: none;" *ngFor="let m of cards">
+  <mat-grid-list cols="2" gutterSize="20px" rowHeight="4:3">
 
- <li>
-
-
-  <mat-card>
+    <br>
+    <br>
 
 
- <!--  <mat-card-title>{{card.name}}</mat-card-title>
-  <mat-card-content>
-   {{card.desc}}
-  </mat-card-content> -->
+    <mat-grid-tile >
 
-  <mat-card-title>hsvchcvs</mat-card-title>
-  <mat-card-content>
-    {{cards.name}}
-  </mat-card-content>
+    <ul>
+        <li *ngFor="let m of card">
 
-
+                {{m.name}}
+       </li>
+    </ul>
+   </mat-grid-tile>
 
 
+    <mat-grid-tile>
+    <ul>
+        
+        <li *ngFor="let n of card"> 
+                {{n.desc}} 
+        </li>
 
-  </mat-card>
+    </ul>
+
+    </mat-grid-tile>
+
+</mat-grid-list>
 
 
 
 
+  
 
 
- </li>
 
-</ul>
 
 </div>

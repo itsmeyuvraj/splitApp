@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
-import {friends} from 'src/app/ds'
+// import {friends} from 'src/app/ds'
 
 
 
@@ -21,7 +21,7 @@ export class AddFriendsComponentComponent implements OnInit {
 
   ngOnInit() {
   }
-  
+/*   
  friends=friends;
 
  task : string ;
@@ -29,7 +29,7 @@ export class AddFriendsComponentComponent implements OnInit {
  onClick(){
   this.friends.push({name: this.task});
   this.task = '';
-}
+} */
 
  
 

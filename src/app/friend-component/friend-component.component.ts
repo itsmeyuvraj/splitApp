@@ -1,7 +1,8 @@
 import { AddExpenseComponentComponent } from './../add-expense-component/add-expense-component.component';
-import { AddFriendsComponentComponent,friends} from './../add-friends-component/add-friends-component.component';
+import { AddFriendsComponentComponent} from './../add-friends-component/add-friends-component.component';
 import { Component, OnInit, Inject } from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+//import {amount} from './../ds';
 
 
 
@@ -20,8 +21,46 @@ export class FriendComponentComponent implements OnInit {
   ngOnInit() {
   }
 // names=['Yuvraj Sharma','Sohan Basak','Subhajit saha','Meenank Meenu']
-names=friends;
-amount=[123,456,678,908]
+friend=[
+  {
+    name: 'Yuvraj'
+  }
+  ,
+  {
+    name: 'Subhajit'
+  },
+  {
+    name: 'Sohan'
+  },
+  {
+    name: 'Meenank'
+  },
+  {
+    name: 'Rajdeep'
+  }
+
+
+]
+amount=[
+
+  {
+    number: 22
+  }
+  ,
+  {
+    number: 22
+  },
+  {
+    number: 22
+  },
+  {
+    number: 22
+  },
+  {
+    number: 22
+  }
+
+]
 
 
 openDialog(): void {
